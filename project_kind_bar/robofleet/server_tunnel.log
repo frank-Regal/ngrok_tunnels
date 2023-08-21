@@ -8,3 +8,6 @@ t=2023-08-20T16:28:14-0500 lvl=info msg="tunnel session started" obj=tunnels.ses
 t=2023-08-20T16:28:15-0500 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:8080 url=tcp://8.tcp.ngrok.io:13697
 t=2023-08-20T16:28:15-0500 lvl=info msg="update available" obj=updater
 t=2023-08-20T18:39:38-0500 lvl=warn msg="failed to open private leg" id=eff1176b456d typ=proxy privaddr=localhost:8080 err="dial tcp 127.0.0.1:8080: connect: connection refused"
+t=2023-08-20T18:58:02-0500 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2023-08-20T18:58:02-0500 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2023-08-20T18:58:02-0500 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=47614a24e51d err="reconnecting session closed"
