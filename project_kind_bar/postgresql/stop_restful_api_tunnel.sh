@@ -13,5 +13,7 @@ echo "Stopping NGROK restful api PID: $NGROK_PID"
 # Kill local process
 kill $NGROK_PID
 
+rm $CUR_DIR/local_pid.log
+
 # User output
 echo "Done."

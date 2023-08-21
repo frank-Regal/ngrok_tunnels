@@ -13,5 +13,7 @@ echo "Stopping NGROK robofleet server PID: $NGROK_PID"
 # Kill the process
 kill $NGROK_PID
 
+rm $CUR_DIR/local_pid.log
+
 # Done
 echo "Done."
