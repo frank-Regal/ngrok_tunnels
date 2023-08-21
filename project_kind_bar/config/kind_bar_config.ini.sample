@@ -1,10 +1,10 @@
 # credentials for NGROK account used for the database
-NGROK_PSQL_PROCESS_UID=postgres_api
-NGROK_PSQL_USERNAME=regal1616@gmail.com
-NGROK_PSQL_AUTH_TOKEN=3s9ae3RNpQ7Xtw5K6NRr_4wZNfA4UeJXqBnZ86PfLM
-NGROK_PSQL_OUTPUT_FILE=restful_api_tunnel.log
+NGROK_PSQL_USERNAME=username
+NGROK_PSQL_AUTH_TOKEN=ngrok_auth_token
+NGROK_PSQL_HTTP_STATIC_DOMAIN=your_free_static_domain
+PSQL_TABLE=your_table_name
 
 # credentials for the NGROK account used for the robofleet server
 NGROK_RF_PROCESS_UID=robofleet_server
-NGROK_RF_USERNAME=fregal@utexas.edu
-NGROK_RF_AUTH_TOKEN=2SolW56eMKBGUn9Hh00FSMa9hRy_3tGZ1sKYqqAo8jGvxLVnP
+NGROK_RF_USERNAME=username
+NGROK_RF_AUTH_TOKEN=ngrok_auth_token
